@@ -90,7 +90,7 @@ span{
 
 .header .navbar a{
     margin:0 4rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color:#EEEEEE;
 }
 
@@ -255,8 +255,8 @@ span{
 #laptop h3{
     color:rgb(208 134 134);
     padding: 4% 0%;
-    font-size: 2vw;
-    margin: 10%;
+    font-size: 3vw;
+    margin: 4%;
     font-family: 'Source Code Pro', monospace;
 }
 #laptop img{
@@ -304,7 +304,8 @@ span{
     line-height: 1.75;
     color: #EEEEEE;
     text-align: left;
-    font-size: 1vw;
+    margin-left: 3rem;
+    font-size: 2rem;
 }
 .z1 a{
     margin: 2.5vw;
@@ -533,10 +534,6 @@ padding: 0 15%;
  .credit{
      font-family: 'Times New Roman', Times, serif;
  }
- .z1 p{
-     margin-left: 3rem;
-     font-size: 2rem;
- }
  
  
  
@@ -580,7 +577,10 @@ padding: 0 15%;
       margin-top: 1.5rem;
     }
     #laptop p{
-        font-size: 100%;
+        font-size: 86%;
+    }
+    #laptop h3{
+        font-size: 160%;
     }
     #home-para {
         font-size: 150%;
@@ -589,7 +589,7 @@ padding: 0 15%;
     .z1 p {
         margin: 5% 0 0 0%;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
     }
     .z1 h2 {
         color: rgb(208 134 134);
@@ -630,7 +630,7 @@ padding: 0 15%;
     .discrip p{
         line-height: 2.3;
         margin-bottom: 3rem;
-        font-size: 70%;
+        font-size: 75%;
         color: rgb(208 134 134);
         padding: 5%;
     }
@@ -638,11 +638,18 @@ padding: 0 15%;
         font-size: 180%;
         margin-bottom: 2%;
     }
+    .home h3 {
+        margin-top: 15%;
+    }
   }
 
 
 @media (max-width:991px){
 
+
+    #laptop h3{
+        font-size: 160%;
+    }
     html{
         font-size: 75%;
     }
@@ -651,18 +658,18 @@ padding: 0 15%;
         margin-top: 6%;
     }
     .header{
-        padding:2rem;
+        padding:1rem;
     }
 
     .header.active{
-        padding:2rem;
+        padding:1rem;
     }
 
     section{
         padding:1rem;
     }
     #laptop p{
-        font-size: 100%;
+        font-size: 86%;
     }
     #home-para {
         font-size: 150%;
@@ -671,7 +678,7 @@ padding: 0 15%;
     .z1 p {
         margin: 5% 0 0 0%;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
     }
     .z1 h2 {
         color: rgb(208 134 134);
@@ -708,13 +715,16 @@ padding: 0 15%;
     .discrip p{
         line-height: 2.3;
         margin-bottom: 3rem;
-        font-size: 70%;
+        font-size: 75%;
         color: rgb(208 134 134);
         padding: 5%;
     }
     .discrip h4{
         font-size: 180%;
         margin-bottom: 2%;
+    }
+    .home h3 {
+        margin-top: 15%;
     }
 }
 
@@ -765,12 +775,12 @@ padding: 0 15%;
         font-size: 2rem;
     }
     #laptop p{
-        font-size: 100%;
+        font-size: 86%;
     }
     .z1 p {
         margin: 5% 0 0 0%;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
     }
     .z1 h2 {
         color: rgb(208 134 134);
@@ -807,7 +817,7 @@ padding: 0 15%;
     .discrip p{
         line-height: 2.3;
         margin-bottom: 3rem;
-        font-size: 70%;
+        font-size: 75%;
         color: rgb(208 134 134);
         padding: 5%;
     }
@@ -815,9 +825,26 @@ padding: 0 15%;
         font-size: 180%;
         margin-bottom: 2%;
     }
+    .home h3 {
+        margin-top: 15%;
+    }
+    .home a {
+        background-color: #000000;
+        color: #EEEEEE;
+        font-size: 90%;
+        padding: 2.5%;
+    }
 }
 
 @media (max-width:480px){
+    .z1 a {
+        margin: 2.5rem 0rem 2rem 0rem;
+        padding: 0.5rem;
+    }
+    .footer .credit {
+        font-size: 1.2rem;
+
+    }
 
     html{
         font-size: 75%;
@@ -834,12 +861,12 @@ padding: 0 15%;
         font-size: 3rem;
     }
     #laptop p {
-        font-size: 100%;
+        font-size: 86%;
     }
     .z1 p {
         margin: 5% 0 0 0%;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
     }
     .z1 h2 {
         color: rgb(208 134 134);
@@ -876,7 +903,7 @@ padding: 0 15%;
     .discrip p{
         line-height: 2.3;
         margin-bottom: 3rem;
-        font-size: 70%;
+        font-size: 75%;
         color: rgb(208 134 134);
         padding: 5%;
     }
@@ -884,8 +911,34 @@ padding: 0 15%;
         font-size: 180%;
         margin-bottom: 2%;
     }
+    .home h3 {
+        margin-top: 15%;
+    }
+    .home a {
+        background-color: #000000;
+        color: #EEEEEE;
+        font-size: 90%;
+        padding: 2.5%;
+    }
+    .row h3{
+        margin-top: 3%;
+    }
 }
 @media(max-width:351px){
+    .z1 a {
+        margin: 2.5rem 0rem 2rem 0rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .row h3{
+        margin-top: 3%;
+    }
+    .home a {
+        background-color: #000000;
+        color: #EEEEEE;
+        font-size: 90%;
+        padding: 2.5%;
+    }
     #laptop img{
         width:100%;
     }
@@ -901,7 +954,7 @@ padding: 0 15%;
     #laptop p{
         color: #EEEEEE;
         text-align: center;
-        font-size: 100%;
+        font-size: 86%;
     }
     .btn{
         margin-bottom: 1rem;
@@ -934,7 +987,8 @@ padding: 0 15%;
     .z1 p {
         margin: 5% 0 0 0%;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
+
     }
     .row2 {
         display: grid;
@@ -961,13 +1015,16 @@ padding: 0 15%;
     .discrip p{
         line-height: 2.3;
         margin-bottom: 3rem;
-        font-size: 70%;
+        font-size: 75%;
         color: rgb(208 134 134);
         padding: 5%;
     }
     .discrip h4{
         font-size: 180%;
         margin-bottom: 2%;
+    }
+    .home h3 {
+        margin-top: 15%;
     }
 
 }
